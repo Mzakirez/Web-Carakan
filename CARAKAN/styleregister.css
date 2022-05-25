@@ -1,0 +1,120 @@
+body {
+    text-decoration: none;
+}
+.kotak {
+    position: absolute;
+    width: 550px;
+    height: 475px;
+    left: 445px;
+    top: 270px;
+    background: #393939;
+    border-radius: 10px;
+}
+
+.frame {
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+}
+
+.p1 {
+    position: absolute;
+    width: 91px;
+    height: 41px;
+    left: 33px;
+    top: 41px;
+
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #ffffff;
+}
+
+.kotak input[type="text"] {
+    box-sizing: border-box;
+    position: absolute;
+    width: 488px;
+    height: 50px;
+    left: 33px;
+    top: 119px;
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.kotak input[type="password"] {
+    box-sizing: border-box;
+    position: absolute;
+    width: 488px;
+    height: 50px;
+    left: 33px;
+    top: 189px;
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.kotak input[type="name"] {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 487px;
+    height: 50px;
+    left: 33px;
+    top: 259px;
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+    
+}
+
+.batas {
+    position: absolute;
+    width: 487px;
+    height: 50px;
+    left: 33px;
+    top: 340px;
+    
+    background: #5e5858;
+    border-radius: 5px;
+}
+
+.submit {
+    position: absolute;
+    width: 100.18px;
+    height: 25px;
+    left: 226.41px;
+    top: 353px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+      
+}
+
+.submit :hover {
+    text-decoration: underline;
+}
+
+.jump {
+    position: absolute;
+    width: 293px;
+    height: 25px;
+    left: 129px;
+    top: 410px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #ffffff;
+}

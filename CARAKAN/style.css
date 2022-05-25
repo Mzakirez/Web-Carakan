@@ -1,0 +1,755 @@
+body {
+    background: #eeeeee;
+}
+
+.borderlogin {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1125px;
+    top: 55px;
+
+    border: 2px solid #393939;
+    border-radius: 1px;
+}
+
+.action{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.action .menu{
+    position: absolute;
+    top: 105px;
+    left: 1077px;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.action .menu.active{
+    visibility: visible;
+    opacity: 1;
+}
+.action .menu::before{
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+}
+.action .menu ul li{
+    list-style: none;
+    padding: 7px 15px;
+    display: flex;
+    align-items: center;
+}
+.action .menu ul li img{
+    position: absolute;
+    max-width: 30px;
+    left: 30px;
+    margin-right: 10px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.action .menu ul li:hover img{
+    opacity: 1;
+}
+.action .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    transition: 0.5s;
+
+}
+.action .menu ul li:hover a{
+    color: #D60000;
+}
+
+.cart {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1200px;
+    top: 3.94%;
+    border-radius: 5px;  
+    background: none;
+}
+
+.user {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1280px;
+    top: 25px;
+}
+
+.login {
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    left: 1156px;
+    top: 61px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #393939;
+}
+
+.borderregister {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1240px;
+    top: 55px;
+    
+    background: #393939;
+    border-radius: 1px;
+}
+
+.register {
+    position: absolute;
+    width: 55px;
+    height: 17px;
+    left: 1262px;
+    top: 61px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.frame {
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+}
+
+.p1 {
+    position: absolute;
+    width: 683px;
+    height: 60px;
+    left: 379px;
+    top: 217px;
+
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+.p2 {
+    position: absolute;
+    width: 780px;
+    height: 56px;
+    left: 330px;
+    top: 277px;
+
+    font-family: 'Sabon RomanOsF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.book1 {
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 0px;
+    top: 570px;
+}
+
+.book2 {
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 601.86px;
+    top: 570px;
+}
+
+.book3 {
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 1203.71px;
+    top: 570px;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 268.06px;
+    height: 277.31px;
+    left: 236.22px;
+    top: 545px;
+    
+    background: #FFFFFF;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 268.06px;
+    height: 277.31px;
+    left: 838.08px;
+    top: 545px;
+    
+    background: #FFFFFF;
+}
+
+.judul1 {
+position: absolute;
+width: 221px;
+height: 28px;
+left: 25px;
+top: 35px;
+
+font-family: 'Times';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.by1 {
+    position: absolute;
+    width: 109.9px;
+    height: 14.38px;
+    top: 106px;
+    left: 25px;
+    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+ .deskripsi1 {
+    position: absolute;
+    width: 223.9px;
+    height: 43.14px;
+    top: 137px;
+    left: 25px;
+    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 121.5%;
+    text-align: justify;
+    
+    color: #000000;
+ }
+
+ .harga1 {
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    top: 210px;
+    left: 25px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #44B300;
+ }
+
+ .borderadd1 {
+    position: absolute;
+    width: 220.82px;
+    height: 39.03px;
+    top: 256px;
+    left: 25px;
+    background: #393939;
+ }
+
+ .addcart1 {
+
+    position: absolute;
+    width: 80.11px;
+    height: 19.51px;
+    left: 95px;
+    top: 266.27px;
+    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #FFFFFF;
+ }
+
+ .book4 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 100px;
+    top: 1080px;
+ }
+
+ .judul2 {
+    position: absolute;
+    width: 135.57px;
+    height: 28.76px;
+    left: 25px;
+    top: 43px;
+    
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;
+ }
+
+.by2 {
+    position: absolute;
+    width: 109.9px;
+    height: 14.38px;
+    left: 25px;
+    top: 106px;
+    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    /* identical to box height, or 14px */
+    
+    
+    color: #929292;
+}
+
+.deskripsi2 {
+    position: absolute;
+    width: 223.9px;
+    height: 43.14px;
+    left: 25px;
+    top: 137px;
+    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 121.5%;
+    /* or 17px */
+    
+    text-align: justify;
+    
+    color: #000000;    
+}
+
+.harga2 {
+    position: absolute;
+width: 92px;
+height: 25px;
+left: 25px;
+top: 210px;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: center;
+
+color: #44B300;
+}
+
+.borderadd2 {
+    position: absolute;
+width: 220.82px;
+height: 39.03px;
+left: 25px;
+top: 256px;
+
+background: #393939;
+}
+
+.addcart2 {
+position: absolute;
+width: 80.11px;
+height: 19.51px;
+left: 95px;
+top: 266.27px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.list {
+    position: absolute;
+width: 150px;
+height: 37px;
+left: 101px;
+top: 945px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 101.5%;
+/* identical to box height, or 37px */
+
+
+color: #000000;
+
+}
+
+.judul4 {
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 100px;
+    top: 1350px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    /* or 29px */
+    color: #000000;
+}
+
+.by4 {
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 100px;
+    top: 1425px;
+    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    /* or 14px */
+    
+    
+    color: #929292;
+}
+
+.harga4 {
+    position: absolute;
+width: 92px;
+height: 25px;
+left: 101px;
+top: 1450px;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+text-align: center;
+
+color: #44B300;
+
+}
+
+.book5 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 360px;
+    top: 1080px;
+}
+
+.judul5 {
+    position: absolute;
+width: 200px;
+height: 58px;
+left: 360px;
+top: 1350px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120.5%;
+/* or 29px */
+
+
+color: #000000;
+}
+
+.by5 {
+    position: absolute;
+width: 200px;
+height: 14px;
+left: 360px;
+top: 1425px;
+
+font-family: 'Avenir';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 101.5%;
+/* or 14px */
+
+
+color: #929292;
+
+}
+
+.harga5 {
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    left: 360px;
+    top: 1450px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #44B300;
+    
+}
+
+.judul6 {
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 620px;
+    top: 1350px;
+    
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    /* or 29px */
+    
+    
+    color: #000000;
+}
+
+.judul7 {
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 880px;
+    top: 1350px;
+    
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    /* or 29px */
+    
+    
+    color: #000000;
+    
+}
+
+.judul8 {
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 1140px;
+    top: 1350px;
+    
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    /* or 29px */
+    
+    
+    color: #000000;
+}
+
+.by6 {
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 620px;
+    top: 1425px;
+    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    /* or 14px */
+    
+    
+    color: #929292;
+}
+
+.by7 {
+    position: absolute;
+    width: 156px;
+    height: 14px;
+    left: 880px;
+    top: 1425px;
+    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    /* or 14px */
+    color: #929292;
+}
+
+.by8 {
+    position: absolute;
+    width: 78px;
+    height: 14px;
+    left: 1140px;
+    top: 1425px;
+    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    /* or 14px */
+    color: #929292;
+}
+
+.book6 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 620px;
+    top: 1080px;
+}
+
+.book7 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 880px;
+    top: 1080px;
+}
+
+.book8 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 1140px;
+    top: 1080px;
+}
+
+.harga6 {
+    position: absolute;
+    width: 103px;
+    height: 25px;
+    left: 620px;
+    top: 1450px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #44B300;
+}
+.harga7 {
+    position: absolute;
+    width: 103px;
+    height: 25px;
+    left: 880px;
+    top: 1450px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    
+    color: #44B300;
+    
+}
+
+.harga8 {
+    position: absolute;
+    width: 103px;
+    height: 25px;
+    left: 1140px;
+    top: 1450px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    
+    color: #44B300;
+    
+}

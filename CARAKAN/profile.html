@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Profile</title>
+<link rel="stylesheet" href="profile.css">
+<body>
+    <img src="Frame.png" class="frame"/>
+    <a href="Cart.html"><img src="cart.png" class="cart"></a>
+    <img src="user.png" class="user" onclick="menuToggle();"/>
+    
+    <div class="action">
+        <div class="menu">
+                <ul>
+                    <li><img src="Add.png"><a href="addbook.html">Add Book</a></li>
+                    <li><span></span class="line"></li>
+                    <li><img src="logout.png"><a href="database.html">Logout</a></li>    
+                </ul>
+        </div>
+    </div>
+    <script>
+            function menuToggle(){
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active')
+            }
+    </script>
+    <h1 class="tex">Profile</h1>
+    <div class="kotak">
+        <img src="mail.png" class="mail">
+        <img src="gender.png" class="gen">
+        <img src="phone.png" class="phone">
+        <img src="loc.png" class="loc">
+
+    </div>        
+    <h2 class="egi">egigans@gmail.com</h2>
+        <p class="em">Email</p>
+        <h2 class="kel1">Male</h2>
+        <p class="kel2">Gender</p>
+        <h2 class="nom1">0812-8623-8911</h2>
+        <p class="nom2">Mobile phone</p>
+        <h2 class="lo1">Perumahan Permata Bintaro Residence C-3</h2>
+        <p class="lo2">Address</p>
+        <img src="user.png" class="poto">
+        <div class="batas"></div>
+        <a href="anu.html" class="tomb">Edit Profil</a>
+        <h1>My Books</h1>
+        <img src="Book 4.png" alt="" class="book4">
+        <p class="judul4">My Own Private Mr. Cool</p>
+        <p class="by4">By. Indah Hanaco</p>
+        <div class="blok1"></div>
+        <a href="anu.html" class="blk1">Download</a>
+</body>
+</html>

@@ -1,0 +1,260 @@
+.cart {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1200px;
+    top: 3.94%;
+    border-radius: 5px;  
+    background: none;
+}
+
+.user {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1265px;
+    top: 3.94%;
+    border-radius: 5px;    
+}
+
+.frame {
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+}
+
+.buku {
+    position: absolute;
+    width: 400px;
+    height: 577px;
+    left: 262px;
+    top: 142px;
+    border-radius: 10px;
+}
+
+.header {
+    position: absolute;
+    width: 470px;
+    height: 116px;
+    left: 708px;
+    top: 142px;
+    
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120.5%;
+    /* or 58px */
+    
+    color: #000000;
+}
+
+.by {
+    position: absolute;
+    width: 186px;
+    height: 24px;
+    left: 708px;
+    top: 266px;
+    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 101.5%;
+    /* or 24px */
+    color: #929292;    
+}
+
+.public {
+    position: absolute;
+    width: 183px;
+    height: 29px;
+    left: 708px;
+    top: 352px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+    /* identical to box height, or 29px */
+    color: #000000;
+    
+}
+
+.aug {
+    position: absolute;
+    width: 103px;
+    height: 18px;
+    left: 708px;
+    top: 396px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+    /* or 18px */
+    color: #929292;
+}
+
+.page {
+    position: absolute;
+    width: 68px;
+    height: 29px;
+    left: 708px;
+    top: 449px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+    /* identical to box height, or 29px */
+    
+    color: #000000;
+}
+
+.jumlah {
+    position: absolute;
+    width: 31px;
+    height: 18px;
+    left: 708px;
+    top: 493px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+    /* or 18px */
+    color: #929292;
+}
+
+.isbn {
+    position: absolute;
+    width: 56px;
+    height: 29px;
+    left: 708px;
+    top: 550px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #D60000;
+}
+
+.ang {
+    position: absolute;
+    width: 131px;
+    height: 18px;
+    left: 708px;
+    top: 594px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+    /* or 18px */
+    color: #929292;
+}
+
+.price {
+    position: absolute;
+    width: 56px;
+    height: 29px;
+    left: 708px;
+    top: 657px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+    /* identical to box height, or 29px */
+    color: #000000;
+}
+
+.har {
+    position: absolute;
+    width: 92px;
+    height: 18px;
+    left: 708px;
+    top: 701px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 101.5%;
+    color: #44B200;    
+}
+
+.abt {
+    position: absolute;
+    width: 262px;
+    height: 43px;
+    left: 262px;
+    top: 800px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120.5%;
+    /* or 43px */
+    color: #000000;
+}
+
+.des {
+    position: absolute;
+    width: 905px;
+    height: 397px;
+    left: 262px;
+    top: 866px;
+    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    text-align: justify;
+    color: #929292;
+}
+
+.kotak {
+    position: absolute;
+    width: 144px;
+    height: 50px;
+    left: 1001px;
+    top: 1292px;
+    background: #393939;
+    border-radius: 1px;
+}
+
+.add {
+    position: absolute;
+    width: 77px;
+    height: 25px;
+    left: 1013px;
+    top: 1305px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #ffffff;
+}
+
+.ker {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1095px;
+    top: 1305px;
+
+}
